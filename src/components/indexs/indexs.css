@@ -1,0 +1,34 @@
+.index_wrap{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+}
+.index_content{
+  flex:1;
+  overflow:hidden;
+}
+.index_wrap>ul{
+  padding:.08rem .2rem;
+  height:.96rem;
+  background:#fff;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-top:.01rem solid #ccc;
+}
+.index_wrap ul>li span{
+  font-size:.3rem;
+  display:block;
+  line-height:.45rem;
+  text-align:center;
+}  
+.index_wrap .iconfont{
+  font-size:.4rem;
+}
+.tab_active{
+  color:rgb(245, 50, 50)
+}
+.index_wrap ul>li a{
+  text-decoration:none;
+}

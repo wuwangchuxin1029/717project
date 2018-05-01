@@ -1,0 +1,27 @@
+.receiver_wrap{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  background:#F3F3F3;
+  header{
+    width:100%;
+    height:.9rem;
+  }
+  section{
+    width:100%;
+    overflow:hidden;
+    overflow-y:scroll;
+    dl{
+      width:100%;
+      height:.8rem;
+      display:flex;
+      line-height:.8rem;
+      padding:0 .3rem;
+      .iconfont{
+          color:#FB4141;
+          padding:0 .2rem
+      }
+    }
+  }
+}

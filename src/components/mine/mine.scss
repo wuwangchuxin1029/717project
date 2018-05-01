@@ -1,0 +1,105 @@
+.mine_wrap{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  background:#F3F3F3;
+  .mine_section{
+    flex:1;
+    overflow:hidden;
+    overflow-y:scroll;
+  }
+  .mine_header{
+    width:100%;
+    height:.9rem;
+    border-bottom:.01rem solid #ccc;
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 .2rem;
+    font-size:.32rem;
+    p{
+      padding-right:35%;
+    }
+  }
+  .mine_favicon{
+    width:100%;
+    height:1.8rem;
+    text-align:center;
+    background:#ff571af5;
+    .iconfont{
+      font-size:1rem;
+      line-height:1.2rem;
+    }
+    p{
+      line-height:.28rem;
+      color:#fff;
+    }
+  }
+  .mine_store,.mine_catagory{
+    width:100%;
+    height:1.2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#fff;
+    padding:0 .2rem;
+    .iconfont{
+      font-size:.45rem;
+    }
+  }
+  .mine_store{
+    .icon-msnui-dianpu{
+      padding:.2rem .1rem;
+      color:rgb(250, 32, 32);
+    }
+  }
+  .mine_catagory{
+    border-top:.01rem solid #ccc;
+    dl{
+      text-align:center;
+    }
+    .last_icon{
+        border-right:.01rem solid #ccc;
+        padding-right:.2rem;
+    }
+  }
+  .mine_list{
+    width:100%;
+    margin-top:.2rem;
+    background:#fff;
+    li{
+      width:100%;
+      height:.9rem;
+      border-bottom:.01rem solid #ccc;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      dl{
+        display:flex;
+        line-height:.9rem;
+        padding-left:.3rem;
+        .iconfont{
+          padding:0 .15rem;
+        }
+      }
+      span{
+        padding-right:.2rem;
+      }
+    }
+  }
+  .mine_hot{
+    width:100%;
+    height:6rem;
+    margin-top:.2rem;
+    background:#fff;
+    .hot_title{
+      width:100%;
+      height:.9rem;
+      line-height:.9rem;
+      border-bottom:.01rem solid #ccc;
+      text-align:center;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.register_wrap{
+  width:100%;
+  height:100%;
+}
+.register_wrap ul{
+  width:100%;
+  height:100%;
+}
+.register_wrap ul>li{
+  width:100%;
+  height:.96rem;
+  line-height:.96rem;
+  padding:0 1rem;
+  span{
+    display:inline-block;
+    width:20%;
+  }
+  button{
+    width:50%;
+    height:.45rem;
+    border:none;
+    outline:none;
+    border:.01rem solid #ccc;
+    background:#eee;
+    text-align:center;
+    margin-left:24%;
+  }
+}

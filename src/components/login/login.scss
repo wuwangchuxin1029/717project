@@ -1,0 +1,32 @@
+.login_wrap{
+  width:100%;
+  height:100%;
+}
+.login_wrap ul{
+  width:100%;
+  height:100%;
+}
+.login_wrap ul>li{
+  width:100%;
+  height:.96rem;
+  line-height:.96rem;
+  padding:0 1rem;
+  span{
+    display:inline-block;
+    width:20%;
+  }
+  .btn_wrap{
+    display:flex;
+    justify-content: space-around;
+  }
+  button{
+    width:35%;
+    height:.45rem;
+    border:none;
+    outline:none;
+    border:.01rem solid #ccc;
+    background:#eee;
+    text-align:center;
+    margin:0 .2rem;
+  }
+}

@@ -1,0 +1,58 @@
+.cart_list{
+  position:relative;
+  width:100%;
+  height:1.5rem;
+  display:flex;
+  justify-content:space-between;
+  background:#fff;
+  margin-bottom:.2rem;
+  padding:0 .2rem;
+  img{
+    width:1.2rem;
+    height:1rem;
+    margin-top:.25rem;
+  }
+  .icon-duihao{
+   line-height:.5rem;
+    font-size:.2rem;
+    background:rgba(252, 25, 25, 0.972);
+    border-color:rgba(252, 25, 25, 0.972);
+    color:#fff;
+   }
+   .checked{
+    display:inline-block;
+     width:.5rem;
+     height:.5rem;
+     border:.01rem solid #ccc;
+     border-radius:50%;
+     text-align:center;
+     margin-top:.5rem;
+   }
+  .cart_text{
+    width:65%;
+    padding:0 .1rem;
+    line-height:.45rem;
+    h5{
+      color:rgba(252, 25, 25, 0.972);
+    }
+    p{
+      width:100%;
+      text-overflow:ellipsis;
+      overflow:hidden;
+      white-space:nowrap;
+    }
+   
+  }
+  .cart_change{
+    position:absolute;
+    right:.2rem;
+    bottom:.2rem;
+    span{
+      display:inline-block;
+      width:.6rem;
+      height:.5rem;
+      border:.01rem solid #ccc;
+      text-align:center;
+    }
+  }
+}
